@@ -1,0 +1,14 @@
+
+
+<div id="<%= dom_id blog %>">
+
+<div class="card" style="width: 18rem;">
+  <%= image_tag blog.image_url, size:"200x200", class:"card-img-top" %>
+  <div class="card-body">
+    <h5 class="card-title"><%= blog.title %></h5>
+    <p class="card-text"><%= blog.content %></p>
+    <%= link_to "Show this blog", blog, class: "btn btn-primary" %>
+  </div>
+</div>
+
+</div>
